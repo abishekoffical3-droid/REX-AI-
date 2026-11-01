@@ -1,0 +1,11 @@
+REX AI DEPLOY CHECKLIST
+
+[ ] Revoke the API key that was pasted into chat.
+[ ] Create a fresh API key in the OpenAI Platform.
+[ ] Upload this folder to GitHub (do not add .env.local or any real key).
+[ ] Import the GitHub repository into Vercel.
+[ ] Add OPENAI_API_KEY in Vercel Environment Variables.
+[ ] Add OPENAI_MODEL = gpt-4.1 (or another model enabled on your API account).
+[ ] Deploy and test chat, web search, voice, and image generation.
+
+Important: API use is billed separately from a ChatGPT subscription. Web search and image generation may have separate availability/cost requirements. This is not a clone of every internal ChatGPT tool.
